@@ -1,0 +1,2 @@
+# Preserve exact source bytes and BUILD_MANIFEST hashes across platforms.
+* -text

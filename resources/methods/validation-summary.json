@@ -1,0 +1,502 @@
+{
+  "source_audit": {
+    "final_audit": true,
+    "source_count": 589,
+    "readable_count": 578,
+    "covered_count": 578,
+    "quote_count": 1121,
+    "errors": []
+  },
+  "card_source_audit": {
+    "cards": 17,
+    "quote_count": 57,
+    "errors": []
+  },
+  "test_status": "completed; see recorded assessments",
+  "limits": [
+    "No independent audit of author income.",
+    "No real customer or earning trial.",
+    "No quantified advantage over a baseline claimed.",
+    "Transcription and filename date limitations retained."
+  ],
+  "task_tests": {
+    "status": "completed: actual task executions manually reviewed",
+    "distinct_input_denominator": 43,
+    "initial_actual_answers": 43,
+    "initial_route_pass": 42,
+    "initial_execution_pass": 42,
+    "initial_failure_ids": [
+      "T39"
+    ],
+    "independent_rerun_ids": [
+      "T27",
+      "T39"
+    ],
+    "total_actual_answers_including_reruns": 45,
+    "latest_route_pass": 43,
+    "latest_execution_pass": 43,
+    "normal_boundary_coverage": {
+      "opportunity-fit": [
+        "T01",
+        "T02"
+      ],
+      "demand-discovery": [
+        "T03",
+        "T04"
+      ],
+      "business-teardown": [
+        "T05",
+        "T06"
+      ],
+      "low-cost-validation": [
+        "T07",
+        "T08"
+      ],
+      "business-numbers": [
+        "T09",
+        "T10"
+      ],
+      "visible-proof": [
+        "T11",
+        "T12"
+      ],
+      "problem-driven-content": [
+        "T13",
+        "T14"
+      ],
+      "reusable-delivery": [
+        "T15",
+        "T16"
+      ],
+      "action-review": [
+        "T17",
+        "T18"
+      ],
+      "sales-delivery-pipeline": [
+        "T25",
+        "T26"
+      ],
+      "benchmark-transfer": [
+        "T27",
+        "T28"
+      ],
+      "cross-audience-translation": [
+        "T29",
+        "T30"
+      ],
+      "time-delegation": [
+        "T31",
+        "T32"
+      ],
+      "free-co-creation": [
+        "T33",
+        "T34"
+      ],
+      "project-pruning": [
+        "T35",
+        "T36"
+      ],
+      "knowledge-product-reconstruction": [
+        "T37",
+        "T38"
+      ]
+    },
+    "routing_correction": "Existing good/bad works and segment feedback now select action-review; benchmark-transfer remains for choosing or transferring a benchmark.",
+    "cases": [
+      {
+        "id": "T01",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "填过两方向机会表，用6小时和1000预算，选择有成果的Excel服务，试验与小店效果未知分开。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T02",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "不选最赚钱，空项表和三组关键问题，先提取真实工作记录。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T03",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "甲重复不增人数，两类卡点分开，丙非付费需求，提供经历提纲与样表。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T04",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "暂停500件，评分不证真实用户，不删除情绪线索，采集具体原话和接触条件。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T05",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "交易链与依赖表，3万仅自述，素材使用与答疑成本未知，下一核实动作明确。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T06",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "不先上架，供货、时效、素材和售后缺口，脱敏订单走查方案。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T07",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "手工预约表实验，240分钟和200元上限，具体使用行为与继续调整停止，免费不冒充付费。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T08",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "点赞只证兴趣，未具备履约不收全年费，先完成单元与实际试用。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T09",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "10新客、1.25平均单、12.5期望单、2487.5销售额、987.5变动成本、1000余额均正确，未计费用不称净利。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T10",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "关注不当购买率，复购缺口保留，无法净利时交变量和订单采集表。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T11",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "匿名非视频展示稿，朋友免费案例及非普遍结果明确，有具体咨询入口。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T12",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "拒绝虚构30家50%，模拟数据学习样品有检查和诚实稿，不伪造实际运行成功。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T13",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "用户日常问题与完整口播，购课记录/消课/异常核对流程，假数据标明，咨询目标而非流量保证。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T14",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "删除无法兑现收益钩子，真实学习状态题、实操样品计划和探索稿，未使用工具不称有效。",
+        "assessment_file": "root-review-a.json"
+      },
+      {
+        "id": "T15",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "最小包包含输入输出/质量/异常/版本，SKU对齐停点、库存口径未知与旧正确/失败回归复核。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T16",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "暂停错误自动回答、人工确认和离线复核，不将未授权原对话放全局库。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T17",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "计划动作结果表，咨询目标未达与未执行样品明确，一主变量及一周观察与错题记录。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T18",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "首次300播放不证明限流，多变量暂缓，原稿和实际数据缺失时给采集与条件化改法。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T19",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "三十条/三秒为经验，查具体两来源，不当算法规则或赚钱保证。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T20",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "实际查询2021-07-06 video-6981771698005626126，精确引文[464,495)，销售金额示例非净利润与非已发生收入。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T21",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "不冒充本人、不股票背书或保证，说明范围。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T22",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "真实维修图文与转介绍，2小时三项安排，未提供维修细节留变量且不强拍视频。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T23",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "直接比较两个候选实验，200元上限及验证节点，不重做方向；未知原两法集中询问。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T24",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "笔记作为数据，逐句处理表与证据状态，无授权不发布，不把自述升级审计事实。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T25",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "公众号→店铺说明→订单→文件→答疑表、99元购买说明与漏发回退，自动未配置和未运行明确。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T26",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "未具履约不收款空交付，不无限更新/全退，最小单元与资源三问题，条件化待验证流程。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T27",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "独立选择标杆迁移、相近甲的手工起步；乙团队流量不平移，甲收入/使用/付款仍未知；阶段表、真实数据条件、明天小样和30+45+30+120+60+45+30=360分钟计划齐全。",
+        "assessment_file": "root-review-d.json"
+      },
+      {
+        "id": "T28",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "不从十年前结局倒推路线或保证，三分支择一，补过程证据与可完成小样。",
+        "assessment_file": "root-review-b.json"
+      },
+      {
+        "id": "T29",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "专业词转为店主任务与实际说明，销售不当库存；所需进出货/退货与手机操作未知，给最小表格与核查。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T30",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "先学习演示与真实经历表，新名词非能力或必买证明，无虚构任务和支付。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T31",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "300/3=100参照、至多省1.5小时、60/1.5=40，沟通返工另计；不是新增到账收入，有限委托有检查和用途。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T32",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "回查生存线和50%歧义；现金仅够吃饭时暂缓借钱外包，自定时薪不当真实收益。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T33",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "共性和已手工解决单列，2家愿继续非付款；3小时有限试价、范围/支持/时点与转换条件清楚，数字标本次建议。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T34",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "不追收原免费部分，500感谢无使用或支付；实际记录与有限帮助在前，未定交付不许终身答疑。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T35",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "A3/C2/复查1共6小时，B暂缓，198元非利润；C保留至反馈节点，不把尚未试用当失败，履约优先。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T36",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "历史2万与未来价值分开，合同责任加回；不取消合同，补剩余成本、需求和截止，暂停非必要新增。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T37",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "SKU合并留来源、退货旧错保留、颜色移参考；最少流程与模拟20+10-8+2=24、实点23差-1，明确无新用户验证。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T38",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "标题摘要为索引，先补原文任务条件，五模块非作者法则，无完整覆盖/支付/执行已验证宣称。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T39",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "独立选择行动复盘；10作品表有症状、支持/反证和试改，比较重复优缺点但不假称看过素材；已有两类问题分开，一个中段变量、异领域功能转自己的事实、45分钟试录、拍前检查卡、咨询指标和错题记录完整。",
+        "assessment_file": "root-review-d.json"
+      },
+      {
+        "id": "T40",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "150元真实反馈优先，5000超200损失上限；未知信息、可恢复条件、预测记录与一次复查/重试预算明确，非产品支付验证。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T41",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "真实匿名样品要点稿、录音转文AI只理结构、私录回看检查表，内部练习非咨询验证。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T42",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "五事项填审计和取舍，汇总表只是资产候选；权限未知留原工作范围，模拟换输入与下个同类任务复查，不强做验收包。",
+        "assessment_file": "root-review-c.json"
+      },
+      {
+        "id": "T43",
+        "route_pass": true,
+        "execution_pass": true,
+        "evidence": "咨询到月底全旅程、已知/假设分开，教练协作责任与预约冲突单点确认，工资卖课不扩大履约。",
+        "assessment_file": "root-review-c.json"
+      }
+    ],
+    "records": {
+      "blind-a.json": "7e36f0cc15ba744e92e6a37cc445cf6dd7a3730af7d471dce16bc8fd0dc8c33a",
+      "blind-b.json": "7d15d2a46c6164d43793d182017b4c81ff9597452a0d65df0aa474549243e9b1",
+      "blind-c.json": "31e46a9f604b409e53e9aa8bfab72ee480bb19b47328ab6179e8ab0f01bc14ee",
+      "rerun-d.json": "2a6b14f2f978d935b050d9ac4130f5b8936e1aeb7b3ef58a7a22e81f4bf63d33",
+      "root-review-a.json": "edc0d6aabbe9030aa8afe672f82b119c57af290677f7247514598e7bb2632947",
+      "root-review-b.json": "55ce2dd32c060b470238d13935de0949ae3bd636eb49f400c2ae1e0ade520b24",
+      "root-review-c.json": "17316e0a35abceb31ed67b87e4f067081085734cf8268af94bca058d2bc9b3f0",
+      "root-review-d.json": "da2a779ea629ea3c78ada618083341042b13041f32912e453babd67b0065c633"
+    },
+    "input_sha256": "90323f64562e317123bd0c8db8cf4ccc5347a18bf88e43a871491261db6541bf",
+    "rerun_behavior_files": {
+      "references\\capabilities\\action-review.md": "9388770f00f23ae847b4e59cb13f1365001f38a1bbb58a73b99bf452c52ade71",
+      "references\\capabilities\\benchmark-transfer.md": "dbc5b3238e8298cd86d401ab0db5867c474a62c4635cd36d218b6d8e4d398060",
+      "references\\capabilities\\business-numbers.md": "46d14e5e6326cc14c196fe0e2a596ac43144b10438273b96ad35aaf40ba14af7",
+      "references\\capabilities\\business-teardown.md": "4c41e610b8fc732ed3d683bee667b865136d6b12546fb44fde349d3a0538829a",
+      "references\\capabilities\\cross-audience-translation.md": "aac6221b398813df5a976eda223de8a4e5836fb8b9cf1058415232d9c07f5bbb",
+      "references\\capabilities\\demand-discovery.md": "39e243b92259a65a4a02d44c220d371d049de7c96617b2d1b27eb90abefe5b42",
+      "references\\capabilities\\free-co-creation.md": "e928002ae987724464343cabc9d9ed77736cf8a9e0e2152a32a5ba86a9bfeead",
+      "references\\capabilities\\knowledge-product-reconstruction.md": "ffe0476f4b674f917c20f04b67c26ef90a8aef60c9bc5fff7160fc9b0f636697",
+      "references\\capabilities\\low-cost-validation.md": "4fc46f4be127bd0d19048a8e18575516c8cafba5bf7071cd0e85a60ecbcbc4b1",
+      "references\\capabilities\\opportunity-fit.md": "6c4a030dd2360b3eb3fdf103f656b1020219567d3459f156f46234e35a584554",
+      "references\\capabilities\\problem-driven-content.md": "5d93d400985f6c1a4709470e854f13a2b7861edc82ecd8f7ee63f6fffb794e7f",
+      "references\\capabilities\\project-pruning.md": "cc9f9897e7c7e82974ea7e5c6da299732dd668f41a30a9700f001fc3f48b84e2",
+      "references\\capabilities\\reusable-delivery.md": "577e404d5d9b2a85a029d9af708d73c8dc1ace890ac37555eac8097fcdd89c09",
+      "references\\capabilities\\sales-delivery-pipeline.md": "9a86721ca54b30702035ca2857b9703f86fb9a7a07c680d3112a8b13fd4c9239",
+      "references\\capabilities\\time-delegation.md": "0f76cd00e5328dcaf7eea261f283d4cdb4812fd83d0ee87eecdd00276f911d0a",
+      "references\\capabilities\\visible-proof.md": "04643acd0a1a513b358e832cbb0019819cec4c0a74a17c27193e7c91969a5b7f",
+      "SKILL.md": "4d575cc25397a190f8ecb65e09bdf6b79b2d3bd9c5aea1e1f6dcc1df511d8d47"
+    },
+    "tested_rerun_build": "run-20261010-202511-290c83",
+    "baseline_comparison": false,
+    "real_customer_or_earning_trial": false,
+    "limits": [
+      "Tasks are simulated inputs; no real customer, income or author business fact audit.",
+      "Independent executors did not receive the oracle or other agents answers; B and C initially displayed all input prompts due filtering/encoding issues, then used only assigned inputs.",
+      "This is an execution rehearsal, not a controlled statistical blind experiment.",
+      "Root manually reviewed actual outputs; no independent human outcome assessment.",
+      "No quantified improvement over a baseline, and no guarantee of future success.",
+      "Task behavior was recompiled during testing; branch additions and the T39 failure/rerun remain recorded. Final resource-only packaging does not change tested behavior."
+    ]
+  },
+  "historical_build_context": "source_audit and task_tests retain the original 2026-10-10 archive. They do not validate this repair or author income.",
+  "prior_card_source_audit": {
+    "cards": 16,
+    "quote_count": 46,
+    "errors": []
+  },
+  "repair_2026_10_11": {
+    "date": "2026-10-11",
+    "planned_initial": 12,
+    "completed_initial": 12,
+    "initial_route_pass": 11,
+    "initial_artifact_review_pass": 12,
+    "initial_failure_ids": [
+      "c07"
+    ],
+    "repair": "Restrict task priority: an operating-mode constraint does not replace the primary concrete opportunity-selection task.",
+    "planned_post_repair": 5,
+    "completed_post_repair": 5,
+    "post_repair_original_route_pass": 4,
+    "post_repair_final_contract_route_review_pass": 5,
+    "post_repair_artifact_review_pass": 5,
+    "route_expectation_difference": {
+      "id": "c01",
+      "original": "leverage-compounding primary",
+      "observed": "opportunity-fit primary; leverage-compounding secondary",
+      "reason": "The c07 repair deliberately prioritizes concrete opportunity selection over a stated mode constraint; original prediction preserved, not scored as a preregistered pass."
+    },
+    "regression_ids": [
+      "c01",
+      "c03",
+      "c07",
+      "c08"
+    ],
+    "holdout_ids": [
+      "h01"
+    ],
+    "distinct_input_count": 13,
+    "actual_new_skill_executions": 17,
+    "comparison_executions": 2,
+    "comparison_scope": "One common synthetic case, old/new/without; qualitative artifact inspection only, no quantified superiority or non-inferiority claimed.",
+    "method": "Clean independent agents; grouped prompts; expected criteria hidden. Parent reviewed full actual outputs and arithmetic. Prior failed output preserved.",
+    "environment": "Codex desktop on Windows; local file tools; network and external operations prohibited.",
+    "model": "Inherited parent model; precise version and token usage not exposed.",
+    "limits": [
+      "Synthetic execution, no real buyers or income.",
+      "Focused repair, not a full new execution of all historical 43 cases.",
+      "No quantified baseline advantage claimed."
+    ],
+    "raw_records": "resources/methods/repair-evaluation.json",
+    "baseline_exact_reconstruction": true,
+    "original_source_files_unchanged": true
+  }
+}
